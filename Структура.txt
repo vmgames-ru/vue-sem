@@ -1,0 +1,42 @@
+apple-store/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── main.css
+│   │   └── fonts/
+│   │       ├── SF-Pro-Display-Regular.woff2
+│   │       ├── SF-Pro-Display-Medium.woff2
+│   │       ├── SF-Pro-Display-Semibold.woff2
+│   │       └── SF-Pro-Display-Bold.woff2
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── AppButton.vue
+│   │   │   ├── AppInput.vue
+│   │   │   └── AppCard.vue
+│   │   ├── layout/
+│   │   │   └── AppHeader.vue
+│   │   └── features/
+│   │       ├── ProductCard.vue
+│   │       └── CartItem.vue
+│   ├── views/
+│   │   ├── HomeView.vue
+│   │   ├── CartView.vue
+│   │   └── FavoritesView.vue
+│   ├── store/
+│   │   ├── modules/
+│   │   │   ├── cart.js
+│   │   │   ├── favorites.js
+│   │   │   └── products.js
+│   │   └── index.js
+│   ├── router/
+│   │   └── index.js
+│   ├── services/
+│   │   └── api.js
+│   ├── App.vue
+│   └── main.js
+├── package.json
+├── vue.config.js
+└── README.md
